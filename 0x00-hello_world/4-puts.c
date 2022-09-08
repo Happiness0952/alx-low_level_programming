@@ -1,21 +1,19 @@
 #include <stdio.h>
-/**
+/*
  *
- *  * main - Entry point 
+ *main - Entry point
  *
- *   * print - Programming is like building a multilingual puzzle
+ *Description: print - Programming is like building a multilingual puzzle
  *
- *    *Return 0
+ *Return 0
  *
- *     
+ *
  */
-
-
- int main (void)
+int main(void)
 {
+	char Mytxt[] = "\"Programming is like building a multilingual puzzle";
 
- char Mytxt[] = "\"Programming is like building a multilingual puzzle";
-	 puts(Mytxt);
-
-		          return 0;
+	puts(Mytxt);
+	return (0);
 }
+
