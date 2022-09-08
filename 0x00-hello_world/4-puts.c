@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 /**
  *
  *  * main - Entry point 
@@ -14,7 +14,7 @@ include <stdio.h>
  int main (void)
 {
 
- char Mytxt[] = "\"Programming is like building a multilingual puzzle"
+ char Mytxt[] = "\"Programming is like building a multilingual puzzle";
 	 puts(Mytxt);
 
 		          return 0;
