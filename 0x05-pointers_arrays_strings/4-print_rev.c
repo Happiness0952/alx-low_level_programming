@@ -1,17 +1,20 @@
 #include "main.h"
+
 /**
- *   * print_rev - prints  a string to stdout in reverse
- *     * @s: the variable to be printed
-*/
+ *  * print_rev - check the code.
+ *   * @s: Pointer declared.
+ *    * Return: Always 0.
+ */
 
 void print_rev(char *s)
 {
-	int i = 0, leng;
+	int i = 0;
 
-	for (leng = 0; s[leng] != '\0'; leng++)
+	for (i = 0; s[i]; i++)
 
-	for (i = leng - 1; i >= 0; i--)
-	{										_putchar(s[i]);
+	for (i--; i >= 0; i--)
+	{
+	_putchar(s[i]);
 	}
 	_putchar('\n');
 }
