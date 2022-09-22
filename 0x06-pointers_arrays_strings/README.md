@@ -1,0 +1,1 @@
+To concatenates two strings
